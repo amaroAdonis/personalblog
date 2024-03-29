@@ -5,7 +5,11 @@
         align-items: first center;
         text-align: center;
         .logo{
-
+            a{
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-size: 50px;
+                color: rgb(88, 88, 88);
+            }
         }
 
         .info{
