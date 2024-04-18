@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HeaderComponent } from './header/header.component';
-import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { PagenotfoundComponent } from './templates/pagenotfound/pagenotfound.component';
+import { HeaderTemplateComponent } from './header-template/header-template.component';
 
 const routes: Routes = [
   {
     path:"",
-    component: HeaderComponent,
+    component: HeaderTemplateComponent,
     children: [
       {
         path:"",
